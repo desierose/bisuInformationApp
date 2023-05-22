@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:text="Back to Home"
-                android:textSize="25sp"
+                android:textSize="26sp"
                 android:layout_gravity="center_horizontal" />
 
             <LinearLayout
