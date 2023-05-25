@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "78575248874",
+    "project_id": "bisuinformationapp",
+    "storage_bucket": "bisuinformationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78575248874:android:6cd1ab889b2965c09bfe93",
+        "android_client_info": {
+          "package_name": "com.example.bisuinformationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78575248874-o5rqv3ir5ahshn6s7ne9fgu17leoj8sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFEwAahZwt77lHUZemPUnHeFnoY7nMGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78575248874-o5rqv3ir5ahshn6s7ne9fgu17leoj8sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
