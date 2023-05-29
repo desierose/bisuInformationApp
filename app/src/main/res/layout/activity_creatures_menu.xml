@@ -110,7 +110,7 @@
 
     <EditText
         android:id="@+id/description"
-        android:layout_width="208dp"
+        android:layout_width="wrap_content"
         android:layout_height="71dp"
         android:layout_marginTop="20dp"
         android:ems="10"
@@ -119,7 +119,7 @@
         android:maxLines="4"
         android:singleLine="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintHorizontal_bias="0.699"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/location" />
 
@@ -130,20 +130,22 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="60dp"
         android:text="Add Attachment:"
-        android:textSize="15dp"
-        app:layout_constraintEnd_toStartOf="@+id/uploadButton"
+        android:textSize="20dp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
-    <Button
-        android:id="@+id/uploadButton"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/fileTextView"
+        android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
         android:text="Upload File"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.637"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description" />
 
@@ -151,11 +153,11 @@
         android:id="@+id/submitBTN"
         android:layout_width="242dp"
         android:layout_height="52dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="56dp"
         android:text="Create Event"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uploadButton" />
+        app:layout_constraintTop_toBottomOf="@+id/fileTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

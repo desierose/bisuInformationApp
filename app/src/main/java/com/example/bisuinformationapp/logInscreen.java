@@ -67,6 +67,7 @@ public class logInscreen extends AppCompatActivity {
                     // Successful login
                     Intent intent = new Intent(logInscreen.this, dashboard.class);
                     startActivity(intent);
+                    finish();
                     Toast.makeText(logInscreen.this,"Login successful!",Toast.LENGTH_SHORT).show();
                 } else {
                     // Invalid credentials
@@ -134,6 +135,7 @@ public class logInscreen extends AppCompatActivity {
                             FirebaseUser user = mAuth.getCurrentUser();
                             Intent intent = new Intent(logInscreen.this, infoDashboard.class);
                             startActivity(intent);
+                            finish();
                         } else {
                             // Authentication failed, display an error message
                             Toast.makeText(logInscreen.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
